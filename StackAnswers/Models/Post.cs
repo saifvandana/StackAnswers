@@ -11,7 +11,7 @@ namespace StackAnswers.Models
     {
         public int PostID { get; set; }
 
-        public string Tile { get; set; }
+        public string Title { get; set; }
 
         [Column(TypeName = "ntext")]
         public string Body { get; set; }

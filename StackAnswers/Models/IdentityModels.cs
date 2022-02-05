@@ -32,6 +32,6 @@ namespace StackAnswers.Models
         }
 
         public DbSet<Post> Post { get; set; }
-        public DbSet<Answer> Answer { get; set; }
+        public DbSet<Comment> Comment { get; set; }
     }
 }

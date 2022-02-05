@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace StackAnswers.Models
 {
-    public class Answer
+    public class Comment
     {
-        public int AnswerID { get; set; }
+        public int CommentID { get; set; }
 
         public string Name { get; set; }
 
